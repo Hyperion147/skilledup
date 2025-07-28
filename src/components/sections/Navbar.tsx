@@ -10,7 +10,7 @@ import {
 
 const Navbar = () => {
     return (
-        <div className="flex p-4 justify-between items-center shadow-slate-200 shadow-md">
+        <div className="fixed top-0 bg-white flex p-4 justify-between items-center shadow-slate-200 shadow-md w-full">
             <div className="w-45 pl-4">
                 <img src="https://skilledup.tech/assets/img/logo.png" alt="" />
             </div>

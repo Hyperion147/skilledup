@@ -5,12 +5,12 @@ import Navbar from "./components/sections/Navbar";
 
 function App() {
 	return (
-		<>
+		<div className="mt-25">
 			<Navbar />
 			<Main />
 			<Contact />
 			<Courses />
-		</>
+		</div>
 	);
 }
 
