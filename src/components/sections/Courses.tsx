@@ -1,15 +1,8 @@
-import { useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { IoMdEye } from "react-icons/io";
 
 
 const Courses = () => {
-    const [filters, setFilters] = useState({
-        allCourses: "",
-        online: "",
-        offline: "",
-        preRecorded: "",
-    });
 
     const cardDetails = [
         {
@@ -56,13 +49,13 @@ const Courses = () => {
             </div>
             <div className="flex items-center justify-center">
                 <div className="w-full">
-                    <div className="flex items-center justify-center gap-4 mb-6 text-center border-b-4 pb-4">
-                        <div className="p-2 border-b-4 hover:border-blue-300 rounded w-40">
+                    <div className="flex items-center justify-center gap-4 mb-6 text-center border-b-4 border-gray-200 pb-4">
+                        <div className="p-2 border-b-4 border-gray-400 hover:border-blue-300 rounded w-40">
                             All Courses
                         </div>
-                        <div className="p-2 border-b-4 hover:border-blue-300 rounded w-40">Online</div>
-                        <div className="p-2 border-b-4 hover:border-blue-300 rounded w-40">Offline</div>
-                        <div className="p-2 border-b-4 hover:border-blue-300 rounded w-40">
+                        <div className="p-2 border-b-4 border-gray-400 hover:border-blue-300 rounded w-40">Online</div>
+                        <div className="p-2 border-b-4 border-gray-400 hover:border-blue-300 rounded w-40">Offline</div>
+                        <div className="p-2 border-b-4 border-gray-400 hover:border-blue-300 rounded w-40">
                             Pre-recorded
                         </div>
                     </div>
