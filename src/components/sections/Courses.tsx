@@ -49,7 +49,7 @@ const Courses = () => {
 
     return (
         <div className="flex flex-col mx-12 my-10">
-            <div className="mx-auto my-4">
+            <div className="mx-auto mb-8">
                 <h2 className="text-3xl font-medium text-blue-950">
                     Industry-Driven Courses for Career Success
                 </h2>
@@ -57,12 +57,12 @@ const Courses = () => {
             <div className="flex items-center justify-center">
                 <div className="w-full">
                     <div className="flex items-center justify-center gap-4 mb-6 text-center border-b-4 pb-4">
-                        <div className="p-2 hover:ring-1 inset-ring rounded w-40">
+                        <div className="p-2 border-b-4 hover:border-blue-300 rounded w-40">
                             All Courses
                         </div>
-                        <div className="p-2 hover:border-b-4 hover:-inset-0 rounded w-40">Online</div>
-                        <div className="p-2 hover:border-b-4 hover:-inset-0 rounded w-40">Offline</div>
-                        <div className="p-2 hover:border-b-4 hover:-inset-0 rounded w-40">
+                        <div className="p-2 border-b-4 hover:border-blue-300 rounded w-40">Online</div>
+                        <div className="p-2 border-b-4 hover:border-blue-300 rounded w-40">Offline</div>
+                        <div className="p-2 border-b-4 hover:border-blue-300 rounded w-40">
                             Pre-recorded
                         </div>
                     </div>
